@@ -12,7 +12,7 @@ wsl --install
 
 まずはwindows PowerShellを管理者権限で実行する
 
-![image.png](attachment:4b6fcddb-cf56-4300-b899-8ba285f8e82f:image.png)
+![image.png](./c-c-/images/powershell.png)
 
 下記のコマンドにてLinux用 windows サブシステムを有効にする
 
@@ -38,7 +38,7 @@ Hyper-Vが有効になっているか確認するため、下記を手順通り�
 
 microsoft storeからubuntuのインストールを行う
 
-![image.png](attachment:11cfdf00-7a21-4cc4-aba3-5b058fdaafae:image.png)
+![image.png](c-c-/images/microsoft_store.png)
 
 特にこだわりがなければ20.04でよいが、LTSのものをダウンロードする
 
