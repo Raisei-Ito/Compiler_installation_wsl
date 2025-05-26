@@ -12,7 +12,8 @@ wsl --install
 
 まずはwindows PowerShellを管理者権限で実行する
 
-![image.png](./c-c-/images/powershell.png)
+
+![image.png](/c-c-/images/powershell.png)
 
 下記のコマンドにてLinux用 windows サブシステムを有効にする
 
