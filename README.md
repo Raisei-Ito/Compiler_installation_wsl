@@ -77,39 +77,3 @@ vscodeの拡張機能である「wsl」をインストールする
 クリック後、wslの接続とあるのでそこをクリック
 ![image.png](./images/wsl_connect_2.png)
 
-wslに接続後、ターミナル上でworkspaceを作成し、移動し、ファイルを開く
-
-```jsx
-mkdir atcoder
-cd atcoder
-code .
-```
-
-workspaceに移動後、コンパイラの導入のために下記のコードを順に実行していく
-
-y/nを聞かれた場合、yで続行することが可能なので、yと打ちenter
-
-```jsx
-sudo apt update
-sudo apt upgrade
-sudo apt install build-essential
-```
-
-念のため下記のコードでバージョンを確認しておく
-
-```jsx
-gcc --version
-```
-
-あとはcであれば.c、c++であれば.cppファイルを保存し、コンパイルを行う
-
-```jsx
-gcc ファイル名.c
-g++ ファイル名.cpp
-```
-
-コンパイル後、プログラムファイルと同じ階層にa.outが保存されるので、実行していく
-
-```jsx
-./a.out
-```
