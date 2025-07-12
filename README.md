@@ -80,7 +80,7 @@ vscodeの拡張機能である「wsl」をインストールする
 wslに接続後、ターミナル上でworkspaceを作成し、移動し、ファイルを開く
 
 ```jsx
-mkdie atcoder
+mkdir atcoder
 cd atcoder
 code .
 ```
